@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assest/icon/themify-icons.css" />
+    <link rel="stylesheet" href="./assest/css/custom.css" />
+    <link rel="stylesheet" href="./assest/css/responsive.css" />
+
+    <title>Demo</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarText"
+    data-bs-offset="0"
+    class="navbar-nav"
+    tabindex="0"
+  >
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-sticky">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid navbar-brand-sticky"
+              src="./assest/images/logo/oneshot-white.png"
+              alt=""
+            />
+            <img
+              class="img-fluid navbar-brand-ragular"
+              src="./assest/images/logo/oneshot-pink.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="ti-align-justify navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#app-screenshot">Screenshot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conatct">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-6">
+            <div class="home_text">
+              <h2>
+                Present your app with
+                <span class="text-uppercase">oneshot</span>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                fugit. Quia tempora dolores id reiciendis, aperiam facilis odio
+                ipsam consequuntur voluptates suscipit dignissimos, obcaecati
+                odit officia aliquid in perferendis delectus.
+              </p>
+
+              <div class="home-download-btn">
+                <a href="#" class="btn btn-bordered mt-4">
+                  <span class="fas fa-play"></span>Play Store
+                </a>
+                <a href="#" class="btn btn-bordered mt-4">
+                  <span class="fab fa-apple"></span>App Store
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <div class="home-image">
+              <img src="./assest/images/m.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section counter_area" id="features">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-3 single_counter text-center">
+            <div class="counter_inner p-3 p-md-0">
+              <div class="counter_item d-inline-block mb-3">
+                <span id="count1" class="counter fw-bold"> 10 </span>
+                <span class="fw-bold">M</span>
+              </div>
+              <h5>Users</h5>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-3 single_counter text-center">
+            <div class="counter_inner p-3 p-md-0">
+              <div class="counter_item d-inline-block mb-3">
+                <span id="count2" class="counter fw-bold"> 23 </span>
+                <span class="fw-bold">K</span>
+              </div>
+              <h5>Download</h5>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-3 single_counter text-center">
+            <div class="counter_inner p-3 p-md-0">
+              <div class="counter_item d-inline-block mb-3">
+                <span id="count3" class="counter fw-bold"> 9 </span>
+                <span class="fw-bold">M</span>
+              </div>
+              <h5>Customer</h5>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-3 single_counter text-center">
+            <div class="counter_inner p-3 p-md-0">
+              <div class="counter_item d-inline-block mb-3">
+                <span id="count4" class="counter fw-bold"> 12 </span>
+                <span class="fw-bold">K</span>
+              </div>
+              <h5>Developer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo_section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-8">
+            <div class="section_heading text-center">
+              <h2>Why do every people <br /><span>love App-mobile?</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <br />Eos laborum et est dolorem excepturi
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mobile_px_20">
+          <div class="col-md-6 col-lg-4">
+            <div class="single_promo_hover single_promo_1 text-center">
+              <div class="circle-icon">
+                <span class="ti-heart-broken text-white"></span>
+              </div>
+              <h5>Clean Design</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolores corporis et commodi
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="single_promo_hover single_promo_1 text-center">
+              <div class="circle-icon">
+                <span class="ti-unlock text-white"></span>
+              </div>
+              <h5>Secure Data</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolores corporis et commodi
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="single_promo_hover single_promo_1 text-center">
+              <div class="circle-icon">
+                <span class="ti-panel text-white"></span>
+              </div>
+              <h5>Retina Ready Data</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolores corporis et commodi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="title">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5 offset-md-1">
+              <div class="section_heading features_middle">
+                <h2>Our special features</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dicta odio suscipit vel corporis sint, enim consequatur
+                  voluptatum laudantium quos
+                </p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="feature_img">
+                <img src="assest/images/service-1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid margin_top_up ipad_px_30">
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <div class="single_feature">
+                  <h4>Beatiful Design</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-4">
+                <div class="single_feature">
+                  <h4>Pure and Simple</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-5">
+                <div class="single_feature">
+                  <h4>Color Schemes</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-5">
+                <div class="single_feature">
+                  <h4>Wow Animations</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-6">
+                <div class="single_feature">
+                  <h4>Excellent Everything</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-lg-6">
+                <div class="single_feature">
+                  <h4>Easy To Customize</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium nisi necessitatibus excepturi, doloribus nihil
+                  </p>
+                  <div class="feature_icon">O</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="app-screenshot" class="ptb_100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section_heading text-center mb-5">
+              <h2 class="section_title">App Screenshots</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-container app-screen">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="assest/images/screenshots/5.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="pricing" class="ptb_100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="section_heading text-center">
+              <h2>Approdable Packages</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mobile_px_20">
+          <div class="col-md-6 col-lg-3">
+            <div class="single_price">
+              <div class="month">Month</div>
+              <h5>premium</h5>
+
+              <div class="icon_pad">
+                <div class="icon_circle">
+                  <span class="ti-medall"></span>
+                </div>
+              </div>
+
+              <div class="doler">
+                <h2><span class="doler-sine">$</span>35</h2>
+              </div>
+
+              <ul>
+                <br />
+                <li>5GB Linux Web Space</li>
+                <li>5 MySQL Databases</li>
+                <li>24/7 Tech Support</li>
+                <li>Daily Backups</li>
+              </ul>
+
+              <a href="#" class="btn btn-bordered mt-4">learn more</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="single_price">
+              <div class="month">Month</div>
+              <h5>Basic</h5>
+
+              <div class="icon_pad">
+                <div class="icon_circle">
+                  <span class="ti-clipboard"></span>
+                </div>
+              </div>
+
+              <div class="doler">
+                <h2><span class="doler-sine">$</span>55</h2>
+              </div>
+
+              <ul>
+                <br />
+                <li>5GB Linux Web Space</li>
+                <li>5 MySQL Databases</li>
+                <li>24/7 Tech Support</li>
+                <li>Daily Backups</li>
+              </ul>
+
+              <a href="#" class="btn btn-bordered mt-4">learn more</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="single_price active_price">
+              <div class="month">Month</div>
+              <h5>Addict</h5>
+
+              <div class="icon_pad">
+                <div class="icon_circle">
+                  <span class="ti-crown"></span>
+                </div>
+              </div>
+
+              <div class="doler">
+                <h2><span class="doler-sine">$</span>75</h2>
+              </div>
+
+              <ul>
+                <br />
+                <li>5GB Linux Web Space</li>
+                <li>5 MySQL Databases</li>
+                <li>24/7 Tech Support</li>
+                <li>Daily Backups</li>
+              </ul>
+
+              <a href="#" class="btn btn-bordered mt-4">learn more</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="single_price">
+              <div class="month">Month</div>
+              <h5>Business</h5>
+
+              <div class="icon_pad">
+                <div class="icon_circle">
+                  <span class="ti-gift"></span>
+                </div>
+              </div>
+
+              <div class="doler">
+                <h2><span class="doler-sine">$</span>85</h2>
+              </div>
+
+              <ul>
+                <br />
+                <li>5GB Linux Web Space</li>
+                <li>5 MySQL Databases</li>
+                <li>24/7 Tech Support</li>
+                <li>Daily Backups</li>
+              </ul>
+
+              <a href="#" class="btn btn-bordered mt-4">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conatct">
+      <div class="contact ptb_100">
+        <div class="container">
+          <div class="mb-5 text-center">
+            <h5>Let's Start a Conversation!</h5>
+            <h2 class="fw-bold">Contact Us</h2>
+          </div>
+        </div>
+        <div class="mobile_px_20">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-lg-5">
+                <h4 class="fw-bold">Contact Info</h4>
+                <ul class="info list-unstyled">
+                  <li class="d-flex align-items-center">
+                    <span class="pe-3 ti-location-pin fs-5"></span>
+                    <p>
+                      <a href="#">Lorem ipsum dolor sit amet consectetur.</a>
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <span class="pe-3 ti-mobile fs-5"></span>
+                    <p>
+                      <a href="#">+91 999-999-9999</a>
+                    </p>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <span class="pe-3 ti-envelope fs-5"></span>
+                    <p>
+                      <a href="#">Info@Oneshot.in</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Your Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea
+                          class="textarea"
+                          cols="30"
+                          rows="4"
+                          placeholder="Enter Your Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn">
+                        <span class="ti-rocket pe-2 fs-5"></span>Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="p-3 copyright">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 p-3 text-center text-lg-start mob-pb-0">
+              <p class="my-0">
+                Copyright &copy; <a href="#">ONESHOT</a> All Rights Reserved
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 p-3 text-center text-lg-end mob-pb-0">
+              <p class="my-0">Designed by <a href="#">KAUSHIK</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assest/js/custom.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ea4e2d73b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
