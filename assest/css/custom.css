@@ -399,7 +399,7 @@ img {
 
 .single_promo_1 span {
   font-size: 30px;
-  background-image: url(/assest/images/promo-icon-bg.png);
+  background: url(../images/promo-icon-bg.png);
   padding: 54px 0 57px 0px;
   display: block;
   background-repeat: no-repeat;
